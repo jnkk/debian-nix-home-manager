@@ -7,7 +7,8 @@
 
 		oh-my-zsh = {
 			enable = true;
-			theme = "";
+			plugins = [ eza bat ];
+			theme = "guezwhoz";
 		};
 	};
 	
