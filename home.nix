@@ -4,7 +4,7 @@
 
   imports = [
   	./direnv.nix
-  	./cli/default.nix
+  	./terminal/default.nix
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
