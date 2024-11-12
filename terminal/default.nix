@@ -15,7 +15,7 @@
 		enable = true;
 	};
 
-	carapace.enable = true;
-	carapace.enableNushellIntegration = true;
+	programs.carapace.enable = true;
+	programs.carapace.enableNushellIntegration = true;
 
 }
