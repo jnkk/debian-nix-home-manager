@@ -5,6 +5,7 @@
   imports = [
   	./direnv.nix
   	./terminal/default.nix
+    # ./tmux/default.nix
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
@@ -30,7 +31,7 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    
+    vscodium
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
