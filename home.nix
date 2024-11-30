@@ -31,7 +31,7 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    vscodium fastfetch bat graphviz
+    vscodium fastfetch bat 
     
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
