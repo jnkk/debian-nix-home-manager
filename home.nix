@@ -32,7 +32,7 @@
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     vscodium fastfetch bat lsd rustup rustc rustscan rusty-bash
-    bruno bruno-cli helix
+    bruno bruno-cli helix go zed-editor
     
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
