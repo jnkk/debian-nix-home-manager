@@ -33,7 +33,7 @@
     # # "Hello, world!" when run.
     vscodium fastfetch bat lsd rustup rustc rustscan rusty-bash
     bruno bruno-cli helix go zed-editor
-    
+    nodejs_23
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
