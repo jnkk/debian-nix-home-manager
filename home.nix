@@ -31,9 +31,9 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    vscodium fastfetch bat lsd rustup rustc rustscan rusty-bash
+    vscodium fastfetch bat lsd 
     bruno bruno-cli helix go zed-editor
-    nodejs_23
+    nodejs_23 devpod devpod-desktop
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
