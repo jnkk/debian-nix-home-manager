@@ -5,7 +5,7 @@
   imports = [
   	./direnv.nix
   	./terminal/default.nix
-    ./githubz/default.nix
+    #./githubz/default.nix
     # ./tmux/default.nix
   ];
 
@@ -32,8 +32,8 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    vscodium fastfetch bat lsd 
-    bruno bruno-cli helix go nodejs_23 devpod devpod-desktop
+    vscodium fastfetch bat lsd
+    bruno bruno-cli helix devpod devpod-desktop
     nix-prefetch-scripts
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
