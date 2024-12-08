@@ -32,9 +32,13 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    vscodium fastfetch bat lsd uv lazygit nodejs_23 yarn ruby  
+    vscodium fastfetch bat lsd uv lazygit  
     bruno bruno-cli helix devpod devpod-desktop
     nix-prefetch-scripts
+    go nodejs_23 yarn ruby
+
+    pgadmin4 pgadmin4-desktopmode
+    postgresql_17 postgresql_17_jit
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
