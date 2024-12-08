@@ -36,9 +36,8 @@
     bruno bruno-cli helix devpod devpod-desktop
     nix-prefetch-scripts
     go nodejs_23 yarn ruby
-
-    pgadmin4 pgadmin4-desktopmode
-    postgresql_17 postgresql_17_jit
+    google-chrome ungoogled-chromium
+    pgadmin4-desktopmode postgresql_17 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
