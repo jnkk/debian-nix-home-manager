@@ -35,7 +35,7 @@
     vscodium fastfetch bat lsd uv lazygit  
     bruno bruno-cli helix devpod devpod-desktop
     nix-prefetch-scripts
-    go nodejs_23 yarn ruby
+    go nodejs_23 yarn ruby redis
     google-chrome ungoogled-chromium
     pgadmin4-desktopmode postgresql_17 
 
