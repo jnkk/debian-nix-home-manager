@@ -38,6 +38,7 @@
     go nodejs_23 yarn ruby redis pnpm corepack_23
     google-chrome ungoogled-chromium
     pgadmin4-desktopmode postgresql_17 
+    neovim
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
