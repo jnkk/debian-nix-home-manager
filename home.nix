@@ -39,6 +39,7 @@
     google-chrome ungoogled-chromium
     pgadmin4-desktopmode postgresql_17 
     neovim devenv
+    asdf-vm
      
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
