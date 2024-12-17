@@ -38,7 +38,7 @@
     go redis
     pgadmin4-desktopmode  
     neovim devenv
-    emacs
+    emacs nushell nurl
      
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
