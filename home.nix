@@ -35,7 +35,7 @@
     vscodium fastfetch bat lsd uv lazygit helix ripgrep just
     bruno bruno-cli devpod devpod-desktop jq
     nix-prefetch-scripts
-    go redis ihp-new
+    go redis
     pgadmin4-desktopmode  
     neovim devenv
     emacs
