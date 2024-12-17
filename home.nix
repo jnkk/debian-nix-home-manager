@@ -35,9 +35,10 @@
     vscodium fastfetch bat lsd uv lazygit helix ripgrep just
     bruno bruno-cli devpod devpod-desktop jq
     nix-prefetch-scripts
-    go redis
+    go redis ihp-new
     pgadmin4-desktopmode  
     neovim devenv
+    emacs
      
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
