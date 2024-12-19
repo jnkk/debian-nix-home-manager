@@ -41,6 +41,7 @@
     emacs nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq
     helix
+    php84 zig
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
