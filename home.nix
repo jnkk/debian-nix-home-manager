@@ -43,6 +43,7 @@
     helix
     php84 zig
     nerd-fonts.noto nerd-fonts.fira-mono nerd-fonts.fira-code
+    nerd-fonts.iosevka-term nerd-fonts.iosevka
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
