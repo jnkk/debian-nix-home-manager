@@ -43,8 +43,8 @@
     helix
     php84 zig
     nerd-fonts.noto
-    nerd-fonts.fira-code
-    nerd-fonts.fira-mono
+    nerd-fonts.fira-code nerd-fonts.fira-mono
+    nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
