@@ -45,7 +45,7 @@
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
-
+    
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
