@@ -5,10 +5,10 @@
     # Specify the source of Home Manager and Nixpkgs.
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     roc.url = "github:roc-lang/roc";
-    ghostty = {
-    	url = "github:ghostty-org/ghostty";
-    	inputs.ghostty.follows = "ghostty";	
-    };
+    # ghostty = {
+    	# url = "github:ghostty-org/ghostty";
+    	# inputs.ghostty.follows = "ghostty";
+    # };
     
     home-manager = {
       url = "github:nix-community/home-manager";
@@ -16,7 +16,7 @@
     };
   };
 
-  outputs = { nixpkgs, home-manager, ghostty, ... }:
+  outputs = { nixpkgs, home-manager, ... }:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
