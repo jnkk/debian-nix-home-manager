@@ -7,6 +7,7 @@
   	./terminal/default.nix
     #./githubz/default.nix
     # ./tmux/default.nix
+    ./apps/alejandra.nix
   ];
 
   # Home Manager needs a bit of information about you and the paths it should
@@ -36,7 +37,6 @@
     devpod devpod-desktop
     nix-prefetch-scripts
     go redis
-    pgadmin4-desktopmode
     neovim devenv
     emacs nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq
