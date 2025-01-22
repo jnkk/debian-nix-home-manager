@@ -33,7 +33,7 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    vscodium direnv
+    direnv
     devpod devpod-desktop
     nix-prefetch-scripts
     go redis
@@ -44,6 +44,7 @@
     php84 zig
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
+    nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     bruno bruno-cli
     alejandra nil
