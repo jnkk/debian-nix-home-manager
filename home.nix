@@ -48,6 +48,7 @@
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     bruno bruno-cli
     alejandra nil
+    ihp-new
     
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
