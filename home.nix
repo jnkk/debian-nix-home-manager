@@ -33,12 +33,11 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    direnv
+    direnv devenv
     nix-prefetch-scripts
     go redis
-    neovim devenv
     nurl
-    fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq
+    fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     helix
     zig
     nerd-fonts.noto
