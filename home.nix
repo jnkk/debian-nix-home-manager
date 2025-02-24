@@ -34,23 +34,20 @@
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     direnv
-    devpod devpod-desktop
     nix-prefetch-scripts
     go redis
     neovim devenv
-    emacs nurl
+    nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq
     helix
-    php84 zig
+    zig
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
     nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
-    bruno bruno-cli
-    alejandra nil
-    ihp-new
+    asdf-vm
     
-
+    
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
