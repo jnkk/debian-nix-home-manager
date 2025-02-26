@@ -33,19 +33,21 @@
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    direnv devenv
+    direnv devenv vscodium
     nix-prefetch-scripts
     go redis
     nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     helix
     zig
+    open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
     nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
-    asdf-vm
-    
+    nerd-fonts.symbols-only
+    asdf-vm 
+    ihp-new
     
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
