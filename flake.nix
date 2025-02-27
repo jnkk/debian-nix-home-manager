@@ -3,8 +3,8 @@
 
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
-    # nix-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    #nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";        
     # roc.url = "github:roc-lang/roc";
     # ghostty = {
     	# url = "github:ghostty-org/ghostty";
