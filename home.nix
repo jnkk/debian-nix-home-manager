@@ -38,7 +38,7 @@
     go redis
     nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
-    helix
+    helix emacs neovim vim
     zig
     open-sans
     nerd-fonts.noto
