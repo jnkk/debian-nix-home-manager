@@ -39,7 +39,7 @@
     nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     lazydocker
-    helix emacs neovim vim
+    helix emacs neovim vim kakoune
     zig
     open-sans
     nerd-fonts.noto
