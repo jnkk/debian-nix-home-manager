@@ -35,12 +35,12 @@
     # # "Hello, world!" when run.
     direnv devenv vscodium
     nix-prefetch-scripts
-    go redis
+    go zig
     nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     lazydocker
     helix emacs neovim vim kakoune
-    zig
+    
     open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
@@ -51,8 +51,7 @@
     nodejs_23 yarn-berry pnpm
     ihp-new
 
-    # haskellPackages.ghcup
-
+    
 
     
     # # It is sometimes useful to fine-tune packages, for example, by applying
