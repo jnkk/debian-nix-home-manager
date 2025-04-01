@@ -48,8 +48,9 @@
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
     asdf-vm 
-    nodejs_23 yarn-berry pnpm
+    # nodejs_23 yarn-berry pnpm
     ihp-new
+    lean4
 
     
 
