@@ -40,19 +40,23 @@
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     lazydocker
     helix emacs neovim vim kakoune
-    
+
+    nil alejandra nixd
+
     open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
     nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
-    asdf-vm 
+
+    asdf-vm
+    # asdf seems doesnt work anymode
     # nodejs_23 yarn-berry pnpm
 
-    
 
-    
+
+
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
