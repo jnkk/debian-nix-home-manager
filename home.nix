@@ -49,8 +49,6 @@
     nerd-fonts.symbols-only
     asdf-vm 
     # nodejs_23 yarn-berry pnpm
-    ihp-new
-    lean4
 
     
 
