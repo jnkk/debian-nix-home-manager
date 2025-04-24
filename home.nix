@@ -53,7 +53,8 @@
     asdf-vm
     # asdf seems doesnt work anymode
     # nodejs_23 yarn-berry pnpm
-    pgadmin4 pgadmin4-desktopmode
+    # pgadmin4
+    pgadmin4-desktopmode
 
 
 
