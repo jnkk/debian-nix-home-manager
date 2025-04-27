@@ -4,7 +4,7 @@
 
   imports = [
   	./direnv.nix
-  	# ./terminal/default.nix
+  	# ./terminal/nushell.nix
     #./githubz/default.nix
     # ./tmux/default.nix
     # ./apps/alejandra.nix
