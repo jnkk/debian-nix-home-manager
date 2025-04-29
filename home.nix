@@ -4,8 +4,10 @@
 
   imports = [
   	./direnv.nix
+    # ./nixvim/default.nix
+    # ./apps/nil.nix
   	# ./terminal/nushell.nix
-    #./githubz/default.nix
+    # ./githubz/default.nix
     # ./tmux/default.nix
     # ./apps/alejandra.nix
   ];
