@@ -4,7 +4,7 @@
 
   imports = [
   	./direnv.nix
-    ./nixvim/default.nix
+    # ./nixvim/default.nix
     # ./apps/nil.nix
   	# ./terminal/nushell.nix
     # ./githubz/default.nix
@@ -42,8 +42,8 @@
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     lazydocker
     helix emacs vim kakoune
-    # moving neovim to home-manager
-
+    neovim# moving neovim to home-manager
+    fast-cli
     nil alejandra nixd
 
     open-sans
