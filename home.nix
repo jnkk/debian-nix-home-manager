@@ -29,6 +29,10 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
 
+  services.fstrim = {
+    enable = true;
+    interval = "weekly";
+  };
 
   nixpkgs.config.allowUnfree = true;
 
