@@ -29,17 +29,18 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
 
-  services.fstrim = {
-    enable = true;
-    interval = "weekly";
-  };
+  # services.fstrim = {
+  #   enable = true;
+  #   interval = "weekly";
+  # };
 
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    direnv devenv vscodium
+    direnv devenv mise 
+    vscodium
     nix-prefetch-scripts
     go zig
     nurl
@@ -57,10 +58,8 @@
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
 
-    asdf-vm
-    # asdf seems doesnt work anymode
     # nodejs_23 yarn-berry pnpm
-    # pgadmin4
+    # pgadmin4 #pick pgadmin4 or desktop, cannot both
     pgadmin4-desktopmode
 
 
