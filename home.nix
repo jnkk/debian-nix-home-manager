@@ -17,7 +17,7 @@
   home.username = "jnkk";
   home.homeDirectory = "/home/jnkk";
 
-  # This value determines the Home Manager release that your configuration is
+    # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
   #
@@ -37,19 +37,21 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    direnv devenv mise 
+    
+    # nix cannot manager asdf-vm since 0.16
+    
+    mise  
     vscodium
     nix-prefetch-scripts
     go zig
     nurl
     fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
     lazydocker
-    helix emacs vim kakoune
-    neovim# moving neovim to home-manager
+    # helix emacs vim kakoune
+    neovim # moving neovim to home-manager
     fast-cli
-    nil alejandra nixd
+    
+    nil alejandra nixd # still don't know what is this for
 
     open-sans
     nerd-fonts.noto
@@ -60,7 +62,7 @@
 
     # nodejs_23 yarn-berry pnpm
     # pgadmin4 #pick pgadmin4 or desktop, cannot both
-    pgadmin4-desktopmode
+    # pgadmin4-desktopmode
 
 
 
@@ -79,6 +81,7 @@
     # '')
   ];
 
+  # make sure the fonts are system-wide
   fonts.fontconfig.enable = true;
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
