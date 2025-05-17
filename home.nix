@@ -65,6 +65,8 @@
     # pgadmin4-desktopmode
 
 
+    # browser
+    chromium
 
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
@@ -83,6 +85,8 @@
 
   # make sure the fonts are system-wide
   fonts.fontconfig.enable = true;
+
+  programs.chromium.enable = true;
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
