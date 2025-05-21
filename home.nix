@@ -38,23 +38,21 @@
 
   home.packages = with pkgs; [
 
-    # nix cannot manager asdf-vm since 0.16
+    # cli/tui
+    fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide lazydocker fast-cli
 
-    mise
-    vscodium
-    nix-prefetch-scripts
-    go zig
-    nurl
-    fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide
-    lazydocker
     # helix emacs vim kakoune
     neovim # moving neovim to home-manager
-    fast-cli
 
-    nil alejandra nixd # still don't know what is this for
+    # still don't know what is this for
+    nix-prefetch-scripts nurl nil alejandra nixd
 
-    nodejs_24
-    ihp-new
+
+    # development
+    ihp-new nodejs_24 go zig mise direnv devenv
+
+    # javascripts
+    bun pnpm deno
 
     # fonts
     open-sans
@@ -66,7 +64,7 @@
 
     # yarn-berry pnpm
 
-    pgadmin4 #pick pgadmin4 or desktop, cannot both
+    # pgadmin4 #pick pgadmin4 or desktop, cannot both
     # pgadmin4-desktopmode
 
 
