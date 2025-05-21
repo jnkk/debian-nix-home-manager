@@ -4,7 +4,7 @@
 
   imports = [
     ./direnv.nix
-    ./nixvim/default.nix
+    # ./nixvim/default.nix
     # ./apps/nil.nix
   	# ./terminal/nushell.nix
     # ./githubz/default.nix
