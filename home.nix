@@ -37,10 +37,10 @@
   nixpkgs.config.allowUnfree = true;
 
   home.packages = with pkgs; [
-    
+
     # nix cannot manager asdf-vm since 0.16
-    
-    mise  
+
+    mise
     vscodium
     nix-prefetch-scripts
     go zig
@@ -50,7 +50,7 @@
     # helix emacs vim kakoune
     neovim # moving neovim to home-manager
     fast-cli
-    
+
     nil alejandra nixd # still don't know what is this for
 
     open-sans
@@ -61,8 +61,8 @@
     nerd-fonts.symbols-only
 
     # nodejs_23 yarn-berry pnpm
-    # pgadmin4 #pick pgadmin4 or desktop, cannot both
-    pgadmin4-desktopmode
+    pgadmin4 #pick pgadmin4 or desktop, cannot both
+    # pgadmin4-desktopmode
 
 
     # browser
