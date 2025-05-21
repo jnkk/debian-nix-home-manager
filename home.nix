@@ -3,7 +3,7 @@
 {
 
   imports = [
-  	./direnv.nix
+    ./direnv.nix
     # ./nixvim/default.nix
     # ./apps/nil.nix
   	# ./terminal/nushell.nix
@@ -53,6 +53,10 @@
 
     nil alejandra nixd # still don't know what is this for
 
+    nodejs_24
+    ihp-new
+
+    # fonts
     open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code nerd-fonts.fira-mono
@@ -60,7 +64,8 @@
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
 
-    # nodejs_23 yarn-berry pnpm
+    # yarn-berry pnpm
+
     pgadmin4 #pick pgadmin4 or desktop, cannot both
     # pgadmin4-desktopmode
 
