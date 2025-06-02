@@ -62,6 +62,11 @@
     nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
+    nerd-fonts.blex-mono
+    nerd-fonts.gohufont
+    nerd-fonts.terminess-ttf
+    nerd-fonts.sauce-code-pro
+    nerd-fonts.droid-sans-mono
 
     # yarn-berry pnpm
 
