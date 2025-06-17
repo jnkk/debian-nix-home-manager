@@ -71,7 +71,8 @@
     # yarn-berry pnpm
 
     # pgadmin4 #pick pgadmin4 or desktop, cannot both
-    pgadmin4-desktopmode
+    # pgadmin4-desktopmode
+    # adding straight to OS
 
 
 
