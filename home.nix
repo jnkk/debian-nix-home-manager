@@ -53,7 +53,7 @@
     ihp-new nodejs_24 go zig mise direnv devenv
 
     # javascripts
-    bun pnpm deno
+    pnpm
 
     # fonts
     open-sans
@@ -71,7 +71,8 @@
     # yarn-berry pnpm
 
     # pgadmin4 #pick pgadmin4 or desktop, cannot both
-    # pgadmin4-desktopmode
+    pgadmin4-desktopmode
+
 
 
     # browser
