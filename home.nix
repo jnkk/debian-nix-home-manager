@@ -53,7 +53,9 @@
     ihp-new nodejs_24 go zig mise direnv devenv
 
     # javascripts
-    pnpm
+    # bun
+    # deno
+    # pnpm
 
     # fonts
     open-sans
@@ -67,14 +69,6 @@
     nerd-fonts.terminess-ttf
     nerd-fonts.sauce-code-pro
     nerd-fonts.droid-sans-mono
-
-    # yarn-berry pnpm
-
-    # pgadmin4 #pick pgadmin4 or desktop, cannot both
-    # pgadmin4-desktopmode
-    # adding straight to OS
-
-
 
     # browser
     chromium
