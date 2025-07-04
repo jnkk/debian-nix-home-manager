@@ -50,7 +50,7 @@
 
 
     # development
-    ihp-new nodejs_24 go zig mise direnv devenv
+    ihp-new nodejs-slim go zig mise direnv devenv
 
     # javascripts
     # bun
