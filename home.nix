@@ -6,7 +6,7 @@
     ./direnv.nix
     # ./nixvim/default.nix
     # ./apps/nil.nix
-  	# ./terminal/nushell.nix
+    # ./terminal/nushell.nix
     # ./githubz/default.nix
     # ./tmux/default.nix
     # ./apps/alejandra.nix
@@ -17,7 +17,7 @@
   home.username = "jnkk";
   home.homeDirectory = "/home/jnkk";
 
-    # This value determines the Home Manager release that your configuration is
+  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
   #
@@ -39,18 +39,44 @@
   home.packages = with pkgs; [
 
     # cli/tui
-    fzf eza ripgrep lsd bat fastfetch uv lazygit just fd jq zoxide lazydocker fast-cli
+    fzf
+    eza
+    ripgrep
+    lsd
+    bat
+    fastfetch
+    uv
+    lazygit
+    just
+    fd
+    jq
+    zoxide
+    lazydocker
+    fast-cli
 
     # editors
-    helix emacs
+    helix
     neovim # moving neovim to home-manager
 
     # still don't know what is this for
-    nix-prefetch-scripts nurl nil alejandra nixd
-
+    nix-prefetch-scripts
+    nurl
+    nil
+    alejandra
+    nixd
 
     # development
-    ihp-new nodejs-slim go zig mise direnv devenv
+    ihp-new
+    nodejs-slim
+    go
+    zig
+    mise
+    direnv
+    devenv
+
+    # haskell
+    spago
+    purescript
 
     # javascripts
     # bun
@@ -60,19 +86,18 @@
     # fonts
     open-sans
     nerd-fonts.noto
-    nerd-fonts.fira-code nerd-fonts.fira-mono
+    nerd-fonts.fira-code
+    nerd-fonts.fira-mono
     nerd-fonts.jetbrains-mono
-    nerd-fonts.iosevka nerd-fonts.iosevka-term nerd-fonts.iosevka-term-slab
+    nerd-fonts.iosevka
+    nerd-fonts.iosevka-term
+    nerd-fonts.iosevka-term-slab
     nerd-fonts.symbols-only
     nerd-fonts.blex-mono
     nerd-fonts.gohufont
     nerd-fonts.terminess-ttf
     nerd-fonts.sauce-code-pro
     nerd-fonts.droid-sans-mono
-
-    # browser
-    chromium
-
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
