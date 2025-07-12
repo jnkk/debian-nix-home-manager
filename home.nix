@@ -54,6 +54,9 @@
     lazydocker
     fast-cli
 
+    # AI
+    gemini-cli
+
     # editors
     helix
     neovim # moving neovim to home-manager
