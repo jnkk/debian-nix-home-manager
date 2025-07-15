@@ -87,7 +87,7 @@
     # pnpm
 
     # fonts
-    cp437
+    cp437 # not sure if this works
     open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code
