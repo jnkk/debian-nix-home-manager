@@ -56,6 +56,7 @@
 
     # AI
     gemini-cli
+    task-master-ai
 
     # editors
     helix
@@ -80,6 +81,9 @@
     # haskell
     spago
     purescript
+
+    # OCaml
+    # opam # already installed using mise
 
     # javascripts
     # bun
