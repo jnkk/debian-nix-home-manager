@@ -71,7 +71,8 @@
 
     # development
     ihp-new
-    nodejs-slim
+    # nodejs-slim
+    nodejs_24
     go
     zig
     mise
