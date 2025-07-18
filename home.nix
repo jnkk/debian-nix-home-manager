@@ -61,6 +61,7 @@
     # editors
     helix
     neovim # moving neovim to home-manager
+    emacs
 
     # still don't know what is this for
     nix-prefetch-scripts
@@ -125,7 +126,7 @@
   # make sure the fonts are system-wide
   fonts.fontconfig.enable = true;
 
-  programs.chromium.enable = true;
+  # programs.chromium.enable = true;
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
