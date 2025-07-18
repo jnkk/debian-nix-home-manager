@@ -85,6 +85,7 @@
     beam28Packages.erlang-ls
     beam28Packages.elixir
     beam28Packages.elixir-ls
+    beam28Packages.rebar3
 
     # haskell
     spago
