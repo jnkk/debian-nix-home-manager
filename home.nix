@@ -79,6 +79,7 @@
     mise
     direnv
     devenv
+    odin
 
     # erlang + elixir
     beam28Packages.erlang
