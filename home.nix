@@ -83,6 +83,9 @@
     # odin game dev
     odin
     raylib
+    clang
+    llvmPackages.lld
+    glibc.dev
 
     # erlang + elixir
     beam28Packages.erlang
