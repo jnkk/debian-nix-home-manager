@@ -79,7 +79,10 @@
     mise
     direnv
     devenv
+
+    # odin game dev
     odin
+    raylib
 
     # erlang + elixir
     beam28Packages.erlang
