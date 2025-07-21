@@ -80,13 +80,6 @@
     direnv
     devenv
 
-    # odin game dev
-    odin
-    raylib
-    clang
-    llvmPackages.lld
-    glibc.dev
-
     # erlang + elixir
     beam28Packages.erlang
     beam28Packages.elixir
