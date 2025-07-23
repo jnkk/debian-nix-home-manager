@@ -72,6 +72,11 @@
 
     # development
     ihp-new
+
+    # "game dev"
+    odin
+    raylib
+
     # nodejs-slim
     nodejs_24
     go
