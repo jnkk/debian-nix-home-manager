@@ -74,8 +74,7 @@
     ihp-new
 
     # "game dev"
-    odin
-    raylib
+    # odin
 
     # nodejs-slim
     nodejs_24
@@ -95,7 +94,7 @@
     purescript
 
     # OCaml
-    # opam # already installed using mise
+    opam
 
     # javascripts
     # bun
@@ -103,7 +102,6 @@
     # pnpm
 
     # fonts
-    cp437 # not sure if this works
     open-sans
     nerd-fonts.noto
     nerd-fonts.fira-code
