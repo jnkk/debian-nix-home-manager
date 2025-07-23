@@ -53,6 +53,7 @@
     zoxide
     lazydocker
     fast-cli
+    neohtop
 
     # AI
     gemini-cli
