@@ -59,9 +59,9 @@
     task-master-ai
 
     # editors
-    helix
+    # helix
     neovim # moving neovim to home-manager
-    emacs
+    # emacs
 
     # still don't know what is this for
     nix-prefetch-scripts
@@ -78,23 +78,23 @@
 
     # nodejs-slim
     nodejs_24
-    go
-    zig
-    mise
-    direnv
-    devenv
+    # go
+    # zig
+    # mise
+    # direnv
+    # devenv
 
     # erlang + elixir
-    beam28Packages.erlang
-    beam28Packages.elixir
-    beam28Packages.rebar3
+    # beam28Packages.erlang
+    # beam28Packages.elixir
+    # beam28Packages.rebar3
 
     # haskell
-    spago
-    purescript
+    # spago
+    # purescript
 
     # OCaml
-    opam
+    # opam
 
     # javascripts
     # bun
