@@ -78,7 +78,7 @@
 
     # nodejs-slim
     # nodejs_24
-    # go
+    go
     # zig
     # mise
     # direnv
@@ -100,6 +100,8 @@
     # bun
     # deno
     # pnpm
+
+    hugo
 
     # fonts
     open-sans
