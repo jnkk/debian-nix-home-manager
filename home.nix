@@ -46,11 +46,11 @@
     bat
     fastfetch
     uv
-    lazygit
     just
     fd
     jq
     zoxide
+    lazygit
     lazydocker
     fast-cli
 
@@ -101,7 +101,7 @@
     # deno
     # pnpm
 
-    hugo
+    # hugo
 
     # fonts
     open-sans
