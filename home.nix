@@ -98,7 +98,7 @@
     # opam
 
     # javascripts
-    # bun
+    bun
     # deno
     # pnpm
 
