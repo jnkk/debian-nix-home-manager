@@ -55,7 +55,7 @@
     fast-cli
 
     # AI
-    # gemini-cli
+    gemini-cli
     # updates are rare
     task-master-ai
 
