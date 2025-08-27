@@ -57,7 +57,7 @@
     # AI
     gemini-cli
     # updates are rare
-    task-master-ai
+    # task-master-ai
 
     # editors
     helix
