@@ -62,7 +62,7 @@
     # editors
     helix
     neovim # moving neovim to home-manager
-    emacs
+    # emacs
 
     # still don't know what is this for
     nix-prefetch-scripts
@@ -72,12 +72,12 @@
     nixd
 
     # development
-    ihp-new
+    # ihp-new
 
     # "game dev"
     # odin
 
-    # nodejs-slim
+    nodejs-slim
     # nodejs_24
     go
     # zig
