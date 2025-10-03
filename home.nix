@@ -77,8 +77,8 @@
     # "game dev"
     # odin
 
-    nodejs-slim
-    # nodejs_24
+    # nodejs-slim
+    nodejs_24
     go
     # zig
     # mise
