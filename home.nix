@@ -55,13 +55,13 @@
     fast-cli
 
     # AI
-    gemini-cli
+    # gemini-cli
     # updates are rare
     # task-master-ai
 
     # editors
-    helix
-    neovim # moving neovim to home-manager
+    # helix
+    # neovim # moving neovim to home-manager
     # emacs
 
     # still don't know what is this for
@@ -78,8 +78,8 @@
     # odin
 
     # nodejs-slim
-    nodejs_24
-    go
+    # nodejs_24
+    # go
     # zig
     # mise
     # direnv
@@ -98,7 +98,7 @@
     # opam
 
     # javascripts
-    bun
+    # bun
     # deno
     # pnpm
 
@@ -109,7 +109,7 @@
     nerd-fonts.noto
     nerd-fonts.fira-code
     nerd-fonts.fira-mono
-    nerd-fonts.jetbrains-mono
+    # nerd-fonts.jetbrains-mono
     nerd-fonts.iosevka
     nerd-fonts.iosevka-term
     nerd-fonts.iosevka-term-slab
