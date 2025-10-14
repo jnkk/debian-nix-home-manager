@@ -72,7 +72,7 @@
     nixd
 
     # development
-    # ihp-new
+    ihp-new
 
     # "game dev"
     # odin
