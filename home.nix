@@ -53,6 +53,7 @@
     lazygit
     lazydocker
     fast-cli
+    watchman
 
     # AI
     # gemini-cli
